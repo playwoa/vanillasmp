@@ -1,0 +1,62 @@
+.txt-white {
+  color: white !important;
+}
+
+.card {
+  background-color: #858AA8;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card h4 {
+  font-family: 'Megrim';
+}
+
+card p {
+  font-family: 'Baloo Thambi 2';
+}
+
+.card-img-top.w-100.d-block {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0px 10px 31px #00000042;
+}
+
+.bg-opacity {
+  background: #FFFFFF4F 0% 0% no-repeat padding-box;
+  box-shadow: 13px 12px 12px #17244880;
+}
+
+body {
+  background: linear-gradient(#172448cf, #0f172de5 27%, #05070e);
+  font-family: 'Baloo Thambi 2';
+}
+
+.img-pic-icn {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.card-bottom {
+  margin-bottom: 10px;
+}
+
+#contact-form textarea {
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 10px;
+  color: #B4B4B4;
+}
+
+#contact-form input {
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 10px;
+  color: #B4B4B4;
+}
+
+#contact-form {
+}
+
