@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>woa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
@@ -14,14 +15,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <div class="header-blue">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 d-flex d-xl-flex justify-content-center align-items-center order-1 order-sm-2 order-md-2 order-lg-1 justify-content-xl-center align-items-xl-center order-xl-1">
+            <div class="row justify-content-around">
+                <div class="col-sm-12 col-md-4 col-lg-3 d-flex d-xl-flex justify-content-center align-items-center order-1 order-sm-2 order-md-2 order-lg-1 justify-content-xl-center align-items-xl-center order-xl-1">
                     <a href="#" style="color: #ffffff;">
                         <div class="bg-success p-3" style="border-radius: 15px;">
                             <div class="row">
@@ -33,8 +35,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 order-sm-1 order-md-2 order-lg-2 order-xl-2"><img class="img-fluid d-flex justify-content-center" src="assets/img/logo%20for%20dark%20backgrounds.png"></div>
-                <div class="col-sm-12 col-md-4 d-flex d-xl-flex justify-content-center align-items-center order-sm-3 justify-content-xl-center align-items-xl-center">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xl-4 order-sm-1 order-md-2 order-lg-2 order-xl-2"><img class="img-fluid d-flex justify-content-center" src="assets/img/logo%20for%20dark%20backgrounds.png" style="max-height: 350px;"></div>
+                <div class="col-sm-12 col-md-4 col-lg-3 d-flex d-xl-flex justify-content-center align-items-center order-sm-3 justify-content-xl-center align-items-xl-center">
                     <a href="#" style="color: #ffffff;">
                         <div class="bg-info p-3" style="border-radius: 15px;">
                             <div class="row">
@@ -49,20 +51,20 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-light navbar-expand-md">
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top navigation-clean">
         <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center"
-                id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link active text-uppercase txt-white" href="#" style="padding: 15px;font-family: Megrim, cursive;border-bottom-width: 1px;border-bottom-style: solid;font-size: 30px;">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active text-uppercase txt-white" href="#" style="padding: 15px;font-family: Megrim, cursive;font-size: 30px;">Rules</a></li>
-                    <li class="nav-item"><a class="nav-link active text-uppercase txt-white" href="#" style="padding: 15px;font-family: Megrim, cursive;font-size: 30px;">Store</a></li>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="card mx-3" style="background: rgba(255,255,255,0);">
-        <div class="card-body px-2 px-md-3" style="background: #04081159;border-style: none;border-radius: 15px;">
+    <div class="card mx-2" style="background: rgba(255,255,255,0);">
+        <div class="card-body px-2 px-md-3 main" style="background: #04081159;border-style: none;border-radius: 15px;">
             <div class="container-fluid hero">
                 <div class="row justify-content-center">
                     <div class="col d-none d-print-flex d-md-none d-lg-flex d-xl-flex px-0">
@@ -86,18 +88,20 @@
                             <div class="row mb-3">
                                 <div class="col-12">
                                     <div class="card w-100">
-                                        <div class="card-body d-flex align-self-start p-0"><img src="assets/img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" style="max-width: 400px;border-top-left-radius: 12px;border-bottom-left-radius: 12px;box-shadow: 6px 0px 20px 0px rgba(68,68,68,0.85);">
+                                        <div class="card-body d-flex flex-column align-self-start flex-sm-row flex-md-row flex-lg-row flex-xl-row p-0"><img class="img-fluid main-img" src="assets/img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" style="box-shadow: 0px 11px 14px 0px rgba(65,65,65,0.61);">
                                             <div class="p-3">
                                                 <h4>Title</h4>
                                                 <h6 class="text-muted mb-2">Subtitle</h6>
                                                 <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.&nbsp;Nullam id dolor id nibh ultricies
-                                                    vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                                                <div class="container card-bottom">
+                                                    vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.&nbsp;Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo
+                                                    odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.&nbsp;Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in,
+                                                    egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                <div class="container-fluid card-bottom">
                                                     <hr>
                                                     <div class="row">
-                                                        <div class="col"><img class="float-left img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
+                                                        <div class="col"><img class="d-flex justify-content-start img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
                                                         <div class="col">
-                                                            <p class="float-right">22/5/2020</p>
+                                                            <p class="d-flex justify-content-end align-items-center h-100">22/5/2020</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -107,55 +111,55 @@
                                 </div>
                             </div>
                             <div class="row mb-4">
-                                <div class="col">
+                                <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                     <div class="card" style="box-shadow: 10px 12px 20px 2px rgba(33,37,41,0.23);border-style: none;"><img class="card-img-top w-100 d-block" src="assets/img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg">
                                         <div class="card-body" style="border-radius: 108px;">
                                             <h4 class="card-title" style="box-shadow: 0px 0px;">Title</h4>
                                             <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
                                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                                         </div>
-                                        <div class="container card-bottom">
+                                        <div class="container-fluid card-bottom">
                                             <hr>
                                             <div class="row">
-                                                <div class="col"><img class="float-left img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
+                                                <div class="col"><img class="d-flex justify-content-start img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
                                                 <div class="col">
-                                                    <p class="float-right">22/5/2020</p>
+                                                    <p class="d-flex justify-content-end align-items-center h-100">22/5/2020</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                     <div class="card" style="box-shadow: 10px 12px 20px 2px rgba(33,37,41,0.23);border-style: none;"><img class="card-img-top w-100 d-block" src="assets/img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg">
                                         <div class="card-body" style="border-radius: 108px;">
                                             <h4 class="card-title" style="box-shadow: 0px 0px;">Title</h4>
                                             <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
                                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                                         </div>
-                                        <div class="container card-bottom">
+                                        <div class="container-fluid card-bottom">
                                             <hr>
                                             <div class="row">
-                                                <div class="col"><img class="float-left img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
+                                                <div class="col"><img class="d-flex justify-content-start img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
                                                 <div class="col">
-                                                    <p class="float-right">22/5/2020</p>
+                                                    <p class="d-flex justify-content-end align-items-center h-100">22/5/2020</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-md-6 col-lg-6 col-xl-4">
                                     <div class="card" style="box-shadow: 10px 12px 20px 2px rgba(33,37,41,0.23);border-style: none;"><img class="card-img-top w-100 d-block" src="assets/img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg">
                                         <div class="card-body" style="border-radius: 108px;">
                                             <h4 class="card-title" style="box-shadow: 0px 0px;">Title</h4>
                                             <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
                                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                                         </div>
-                                        <div class="container card-bottom">
+                                        <div class="container-fluid card-bottom">
                                             <hr>
                                             <div class="row">
-                                                <div class="col"><img class="float-left img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
+                                                <div class="col"><img class="d-flex justify-content-start img-pic-icn img-fluid" src="assets/img/C1_L1_06.jpg"></div>
                                                 <div class="col">
-                                                    <p class="float-right">22/5/2020</p>
+                                                    <p class="d-flex justify-content-end align-items-center h-100">22/5/2020</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -170,7 +174,7 @@
     </div>
     <div class="footer-dark">
         <footer>
-            <div class="container">
+            <div class="container-fluid footer-container">
                 <div class="row">
                     <div class="col-md-6 col-lg-4 col-xl-4 item text"><img class="img-fluid mb-3 w-75" src="assets/img/full%20logo%20with%20transparency.png">
                         <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
@@ -194,24 +198,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5 item">
+                    <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 item">
                         <h3>Drop us a Line</h3>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elit clita kasd guberg</p>
                         <div>
                             <form id="contact-form">
                                 <div class="form-group container-fluid">
                                     <div class="form-row">
-                                        <div class="col"><input class="form-control" type="text" name="first_name" value="First Name *" required=""></div>
-                                        <div class="col"><input class="form-control" type="text" name="last_name" value="Last Name"></div>
+                                        <div class="col"><input class="form-control form-control-sm" type="text" name="first_name" value="First Name *" required=""></div>
+                                        <div class="col"><input class="form-control form-control-sm" type="text" name="last_name" value="Last Name"></div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="col"><input class="form-control" type="text" name="email" value="Email *" required=""></div>
-                                        <div class="col"><input class="form-control" type="text" name="last_name" value="Subject *" required=""></div>
+                                        <div class="col"><input class="form-control form-control-sm" type="email" name="email" value="Email *" inputmode="email"></div>
+                                        <div class="col"><input class="form-control form-control-sm" type="text" name="last_name" value="Subject *" required=""></div>
                                     </div>
                                 </div>
                                 <div class="form-group container-fluid">
                                     <div class="form-row">
-                                        <div class="col"><textarea class="form-control" name="body" required="">Write something here which you would like to convey..</textarea></div>
+                                        <div class="col"><textarea class="form-control form-control-sm" name="body" required="">Write something here which you would like to convey..</textarea><button class="btn btn-info float-right" type="button">Submit</button></div>
                                     </div>
                                 </div>
                             </form>

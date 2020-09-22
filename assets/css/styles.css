@@ -7,6 +7,7 @@
   color: white;
   text-align: center;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 .card h4 {
@@ -17,10 +18,14 @@ card p {
   font-family: 'Baloo Thambi 2';
 }
 
-.card-img-top.w-100.d-block {
+.card-img-top {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 0px 10px 31px #00000042;
+}
+
+.card-bottom {
+  margin-bottom: 15px;
 }
 
 .bg-opacity {
@@ -35,12 +40,8 @@ body {
 
 .img-pic-icn {
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
-}
-
-.card-bottom {
-  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
 }
 
 #contact-form textarea {
@@ -57,6 +58,35 @@ body {
   color: #B4B4B4;
 }
 
-#contact-form {
+#contact-form button {
+  border-radius: 20px;
+  padding: 10px 35px;
+  margin-bottom: 10px;
+  font-family: 'Megrim';
+  font-weight: 600;
+}
+
+@media (min-width: 990px) {
+  .main {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-img {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 10px 0px 20px 0px rgba(68,68,68,0.85);
+    width: 40%;
+  }
+}
+
+@media (max-width: 370px) {
+  .main-img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px 11px 14px 0px rgba(65,65,65,0.61);
+  }
 }
 
