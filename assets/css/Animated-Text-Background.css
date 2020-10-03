@@ -1,0 +1,31 @@
+#animatedTextBackground {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+  /*background: #232a42;*/
+}
+
+#animatedTextHeading {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/907368/background-text.jpg") repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: right;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 6rem;
+  line-height: .9em;
+  background-size: 140%;
+}
+
+@media (max-width: 580px) {
+  #animatedTextHeading {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+#animatedTextHeading:hover {
+  cursor: default;
+}
+

@@ -17,35 +17,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-Text-Background.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <!-- Start: Nav small -->
     <nav class="navbar navbar-dark navbar-expand-md sticky-top navigation-clean d-block d-md-none">
-        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/full%20logo%20with%20transparency.png" style="max-width: 150px;max-height: 60px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-2">
                 <ul class="nav navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index_temp.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
                     <li class="nav-item"><a class="nav-link" href="http://worldofatlantida.tebex.io/">Store</a></li>
                     <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <!-- End: Nav small -->
     <!-- Start: Navigation Clean -->
     <nav class="navbar navbar-dark navbar-expand-md sticky-top navigation-clean d-none d-md-block">
-        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav mx-auto">
+        <div class="container-fluid cont"><a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/full%20logo%20with%20transparency.png" style="max-width: 150px;max-height: 60px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index_temp.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
                     <li class="nav-item"><a class="nav-link" href="http://worldofatlantida.tebex.io/" target="_blank">Store</a></li>
                     <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>
     <!-- End: Navigation Clean -->
@@ -53,7 +58,7 @@
     <div class="my-5">
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-5 col-xl-5 align-self-center align-self-lg-start align-self-xl-center"><img class="img-fluid" src="assets/img/37468.png" style="border-radius: 15px;"></div>
+                <div class="col-12 col-lg-5 col-xl-5 align-self-center align-self-lg-start align-self-xl-center"><img class="img-fluid" src="assets/img/WoA_Spawn.jpg" style="border-radius: 15px;" loading="eager"></div>
                 <div class="col-12 col-sm-12 col-md-8 col-lg-5 col-xl-5">
                     <!-- Start: Animated Text Background -->
                     <div class="d-flex justify-content-center align-items-center" id="animatedTextBackground">
@@ -63,7 +68,7 @@
                     <div class="container-fluid mt-2">
                         <div class="row justify-content-end">
                             <div class="col-12 col-md-7 col-lg-7 col-xl-6">
-                                <a class="m-4" href="javascript:cpyClipboardmc()" style="color: #ffffff;">
+                                <a data-toggle="tooltip" data-bs-tooltip="" class="m-4" style="color: #ffffff;" title="Copy IP">
                                     <div class="bg-success p-3" style="border-radius: 15px;">
                                         <div class="row">
                                             <div class="col-2 align-self-center"><i class="fa fa-star" id="my-auto" style="font-size: 30px;"></i></div>
@@ -154,7 +159,7 @@
                 </div>
                 <div class="row">
                     <!-- Start: Social Icons -->
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
                     <!-- End: Social Icons -->
                 </div>
                 <!-- Start: Copyright -->
@@ -166,7 +171,9 @@
     <!-- End: Footer Dark -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Animated-Text-Background.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
